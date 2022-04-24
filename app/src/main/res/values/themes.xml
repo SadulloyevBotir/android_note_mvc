@@ -10,14 +10,13 @@
         <item name="colorSecondaryVariant">@color/teal_700</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
-        <item name="android:windowAnimationStyle">
-            @style/custom_activity_animation
-        </item>
+        <item name="android:windowAnimationStyle">@style/custom_activity_animation</item>
         <item name="android:titleTextColor" tools:targetApi="m">@color/lynx_white</item>
         <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
         <item name="android:navigationBarColor">@color/lynx_white</item>
         <item name="android:statusBarColor" tools:targetApi="l">@color/lynx_white</item>
         <!-- Customize your theme here. -->
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
     </style>
 
 

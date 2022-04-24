@@ -37,15 +37,10 @@
                 android:layoutMode="clipBounds" />
 
 
-            <com.getbase.floatingactionbutton.FloatingActionsMenu
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:fab_colorPressed="@color/app_color_2"
-                android:layout_gravity="bottom|right"
-                app:fab_addButtonColorNormal="@color/app_color_1">
 
                 <com.getbase.floatingactionbutton.FloatingActionButton
                     android:id="@+id/bn_add"
+                    android:layout_gravity="bottom|right"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:fabSize="mini"
@@ -54,7 +49,6 @@
                     app:fab_colorNormal="@color/app_color_1"
                     app:fab_icon="@drawable/ic_add" />
 
-            </com.getbase.floatingactionbutton.FloatingActionsMenu>
         </FrameLayout>
 
     </LinearLayout>
