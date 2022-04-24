@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Note</string>
+    <string name="str_title">Title</string>
+    <string name="str_date">22/4/2022 12:23</string>
+    <string name="str_edit">Edit</string>
+    <string name="str_search">Search</string>
+    <string name="str_create_note">Create Note</string>
+    <string name="str_update">Update</string>
+    <string name="str_confirm">Confirm</string>
+    <string name="str_cancel">Cancel</string>
+    <string name="str_delete_note">Do you want to delete this note?</string>
+    <string name="str_delete_all_note">Do you want to delete all note?</string>
+    <string name="str_hint_title">Enter title</string>
+    <string name="str_hint_body">Enter anything</string>
+    <string name="str_network">Connection Error</string>
+    <string name="str_refresh">Refresh</string>
+    <string name="str_lorem_ipsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+</resources>

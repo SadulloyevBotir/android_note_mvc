@@ -1,0 +1,63 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activty.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/item_background_1" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_notes"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layoutMode="clipBounds" />
+
+
+            <com.getbase.floatingactionbutton.FloatingActionsMenu
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fab_colorPressed="@color/app_color_2"
+                android:layout_gravity="bottom|right"
+                app:fab_addButtonColorNormal="@color/app_color_1">
+
+                <com.getbase.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/bn_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:fabSize="mini"
+                    app:fab_colorPressed="@color/app_color_2"
+                    app:fab_title="@string/str_create_note"
+                    app:fab_colorNormal="@color/app_color_1"
+                    app:fab_icon="@drawable/ic_add" />
+
+            </com.getbase.floatingactionbutton.FloatingActionsMenu>
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:elevation="15dp"
+
+    android:translationZ="15dp"
+    android:background="@drawable/item_view_rounded"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:paddingTop="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="20dp">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/custom_worksans_bold_font"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="@color/app_color_2" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/bn_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/item_view_rounded"
+            android:backgroundTint="@color/app_color_1"
+            android:textColor="@color/lynx_white" />
+
+        <Button
+            android:id="@+id/bn_done"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/item_view_rounded"
+            android:textColor="#CF4035" />
+
+    </LinearLayout>
+
+</LinearLayout>
