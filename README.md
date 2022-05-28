@@ -1,6 +1,7 @@
 Note App 
 
-![photo_2022-04-24_14-38-29](https://user-images.githubusercontent.com/91020070/170831153-2555096c-f521-44c8-ac4c-dff2654be629.jpg)
+![photo_2022-04-24_14-38-29](https://user-images.githubusercontent.com/91020070/170831811-f51e4952-bbdd-45f7-a739-2ff7b17d39b0.jpg)
+
 
 https://user-images.githubusercontent.com/91020070/170831684-dd0d6ffe-04ce-42dc-9660-493c2fa9e075.mp4
 
